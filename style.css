@@ -1,17 +1,32 @@
 body {
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
 }
 
 header,
 footer,
-.transformers {
+.transformer {
   background-color: #1f2937;
   color: white;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  padding: 30px;
+}
+
 a {
   text-decoration: none;
-  counter-reset: white;
+  color: white;
 }
 
 button {
@@ -25,6 +40,45 @@ button {
   padding: 0px;
 }
 
+.external-links {
+  display: flex;
+  gap: 25px;
+  padding: 25px;
+  list-style-type: none;
+}
+
 .citetation {
   background-color: #e5e7eb;
+}
+
+.transformer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.transformer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.llama-generations {
+  display: flex;
+  flex-direction: column;
+}
+
+.llama-generations-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.newsletter {
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
