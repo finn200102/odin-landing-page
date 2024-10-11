@@ -33,7 +33,12 @@ header {
 }
 
 footer {
-  padding: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+footer h3 {
+  margin: 0;
 }
 
 a {
@@ -65,13 +70,30 @@ button {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 50;
+  color: #1f2937;
 }
 
 .transformer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  font-size: 36px;
+}
+
+.transformer h2 {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+}
+
+.transformer p {
+  margin: 0 0 10px 0;
+  font-size: 16px;
 }
 
 .transformer-text {
@@ -103,6 +125,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .newsletter-content {
@@ -114,6 +137,11 @@ button {
   padding-left: 90px;
   padding-right: 90px;
   border-radius: 10px;
+  gap: 40px;
+}
+
+.newsletter-content button {
+  border: 2px solid white;
 }
 
 .main-content {
