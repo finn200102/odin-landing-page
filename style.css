@@ -105,6 +105,7 @@ button {
 .llama-generations {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .llama-generations-cards {
